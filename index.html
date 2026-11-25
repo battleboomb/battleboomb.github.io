@@ -9,6 +9,7 @@
 <meta property="og:description" content="Small, cozy games. Meet Dachs Puzzle, a one-tap 3D puzzle about long, wiggly dachshunds.">
 <meta property="og:image" content="https://battleboomb.github.io/assets/dachs_hero.jpg">
 <link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
 <style>
 	:root {
 		--bg: #fff8ee;
@@ -70,6 +71,9 @@
 	.soon { display: inline-flex; align-items: center; gap: 10px; background: var(--ink); color: var(--bg); padding: 12px 20px; border-radius: 14px; font-weight: 800; }
 	.soon svg { width: 22px; height: 22px; }
 	.soon small { display: block; font-weight: 600; opacity: 0.75; font-size: 0.75rem; line-height: 1; }
+	.legal { margin: 14px 0 0; color: var(--muted); font-size: 0.88rem; }
+	.legal a { color: var(--muted); text-underline-offset: 2px; white-space: nowrap; }
+	.legal a:hover { color: var(--garnet); }
 	.features { margin: 0; padding: 0; list-style: none; display: grid; gap: 14px; }
 	.features li { display: flex; gap: 14px; align-items: flex-start; }
 	.features .em { flex: none; width: 44px; height: 44px; border-radius: 14px; background: var(--garnet-soft); display: grid; place-items: center; font-size: 1.35rem; }
@@ -131,6 +135,7 @@
 					<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 3.5v17a1 1 0 0 0 1.5.86L20 13a1.15 1.15 0 0 0 0-2L5.5 2.64A1 1 0 0 0 4 3.5z"/></svg>
 					<div><small>Coming soon to</small>Google Play</div>
 				</div>
+				<p class="legal">No ads, no data collected. <a href="dachs-puzzle/privacy-policy.html">Privacy Policy</a> · <a href="dachs-puzzle/privacy-policy.html#ko" lang="ko">개인정보처리방침</a></p>
 			</div>
 			<ul class="features">
 				<li><div class="em">🐶</div><div><b>Easy to start</b><span>One tap is all you need. Hints and walk / run modes help when you're stuck.</span></div></li>
@@ -158,7 +163,7 @@
 <footer>
 	<div class="wrap">
 		<span>© 2026 Garnet Studio</span>
-		<span><a href="dachs-puzzle/privacy-policy.html">Dachs Puzzle Privacy Policy / 개인정보처리방침</a></span>
+		<span><a href="mailto:battleboomb@gmail.com">battleboomb@gmail.com</a></span>
 	</div>
 </footer>
 </body>
